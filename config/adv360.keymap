@@ -55,8 +55,8 @@
 &kp JP_HANZEN   &kp N1   &kp N2    &kp N3      &kp N4         &kp N5  &tog 1                                                                            &mo 3      &kp N6  &kp N7         &kp N8             &kp N9         &kp N0               &kp MINUS
 &kp ESC         &kp Q    &kp W     &kp E       &kp R          &kp T   &none                                                                             &none      &kp Y   &kp U          &kp I              &kp O          &kp P                &kp JP_AT
 &kp LCTRL       &kp A    &kp S     &lt 1 D     &kp F          &kp G   &none                 &kp LEFT_WIN   &kp LALT               &kp LGUI   &kp RCTRL  &none      &kp H   &kp J          &kp K              &kp L          &mt RCTRL SEMICOLON  &kp JP_COLON
-&kp LSHFT       &lt 1 Z  &kp X     &kp C       &kp V          &kp B                                        &kp INT2               &kp PG_UP                        &kp N   &kp M          &kp COMMA          &kp DOT        &mt RIGHT_ALT SLASH  &kp INT3
-&mo 2           &lt 1 A  &kp CAPS  &kp DELETE  &kp BACKSPACE          &mt LEFT_SHIFT SPACE  &mt LCTRL TAB  &mt LEFT_ALT JP_EISU   &kp JP_KANA  &kp TAB  &kp ENTER  &kp JP_TILDE           &kp JP_LBRACKET    &kp JP_RBRACKET &kp JP_CARET        &kp JP_YEN
+&kp LSHFT       &lt 1 Z  &kp X     &kp C       &kp V          &kp B                                        &kp INT2               &kp PG_UP                        &kp N   &kp M          &kp COMMA          &kp DOT        &mt RIGHT_ALT SLASH  &kp JP_YEN
+&mo 2           &lt 1 A  &kp CAPS  &kp DELETE  &kp BACKSPACE          &mt LEFT_SHIFT SPACE  &mt LCTRL JP_EISU &kp JP_EISU         &kp JP_KANA &kp TAB  &kp ENTER   &kp JP_CARET           &kp JP_LBRACKET   &kp JP_RBRACKET &kp JP_UNDERSCORE    &kp JP_PIPE
             >;
         };
 
