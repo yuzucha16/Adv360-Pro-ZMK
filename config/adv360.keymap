@@ -54,8 +54,8 @@
             bindings = <
 &kp JP_EISU     &kp N1   &kp N2    &kp N3      &kp N4         &kp N5  &tog 1                                                      &mo 3      &kp N6    &kp N7      &kp N8        &kp N9         &kp N0               &kp MINUS
 &kp JP_KANA     &kp Q    &kp W     &kp E       &kp R          &kp T   &none                                                       &none      &kp Y     &kp U       &kp I         &kp O          &kp P                &kp JP_AT
-&kp ESC         &mt LALT A &kp S   &lt 1 D     &kp F          &kp G   &none    &kp RGUI       &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H     &kp J       &kp K         &kp L          &mt RCTRL SEMICOLON  &kp JP_COLON
-&kp LSHFT       &mt LSHFT Z  &kp X &kp C       &kp V          &kp B                           &kp HOME      &kp PG_UP                        &kp N     &kp M       &kp COMMA     &kp DOT        &mt RALT SLASH       &kp JP_YEN
+&kp ESC         &kp A    &kp S     &lt 1 D     &kp F          &kp G   &none    &kp RGUI       &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H     &kp J       &kp K         &kp L          &mt RCTRL SEMICOLON  &kp JP_COLON
+&kp RALT        &mt LSHFT Z  &kp X &kp C       &kp V          &kp B                           &kp HOME      &kp PG_UP                        &kp N     &kp M       &kp COMMA     &kp DOT        &mt RALT SLASH       &kp JP_YEN
 &mo 2           &kp UP   &kp DOWN  &kp DELETE  &kp BACKSPACE  &mt LSHFT SPACE  &mt LCTRL A    &kp END       &kp PG_DN  &kp TAB    &kp ENTER            &kp JP_CARET &kp JP_LBRACKET &kp JP_RBRACKET &kp A            &kp JP_UNDERSCORE
             >;
         };
