@@ -55,16 +55,16 @@
             bindings = <
 &kp JP_HANZEN   &kp N1      &kp N2      &kp N3      &kp N4      &kp N5  &tog 1                                                                  &mo 3        &kp N6   &kp N7      &kp N8      &kp N9          &kp N0               &kp MINUS
 &kp TAB         &kp Q       &kp W       &kp E       &kp R       &kp T   &none                                                                   &none        &kp Y    &kp U       &kp I       &kp O           &kp P                &kp JP_AT
-&kp ESC         &kp A       &kp S       &lt 1 D     &kp F       &kp G   &none           &kp RCTRL       &kp LALT        &kp LGUI   &kp RGUI     &none        &kp H    &kp J       &kp K       &kp L           &mt RCTRL SEMICOLON  &kp JP_COLON
-&kp LSHFT       &mt LALT Z  &kp X       &kp C       &kp V       &kp B                                   &kp HOME        &kp PG_UP               &kp N        &kp M    &kp COMMA   &kp DOT     &mt RALT SLASH  &kp JP_YEN
-&kp LALT        &kp RC(Z)   &kp RC(Y)   &kp ENTER   &kp TAB             &mt LSHFT SPACE &kp BACKSPACE   &kp END         &kp PG_DN  &kp DELETE   &lt 1 ENTER  &kp END  &kp HOME    &kp PG_DN   &kp PG_UP       &kp RC(RA(DEL))
+&kp ESC         &kp A       &kp S       &lt 1 D     &kp F       &kp G   &none         &kp BACKSPACE &kp LALT        &kp LGUI   &kp RGUI     &none        &kp H    &kp J       &kp K       &kp L           &mt RCTRL SEMICOLON  &kp JP_COLON
+&kp LSHFT       &mt LALT Z  &kp X       &kp C       &kp V       &kp B                                   &kp HOME    &kp PG_UP               &kp N        &kp M    &kp COMMA   &kp DOT     &mt RALT SLASH  &kp JP_YEN
+&kp RG(RS(S))   &kp RC(Z)   &kp RC(Y)   &kp ENTER   &kp TAB             &mt LSHFT SPACE &mt RCTRL ESC   &kp END     &kp PG_DN  &kp DELETE   &lt 1 ENTER  &kp END  &kp HOME    &kp PG_DN   &kp PG_UP       &kp RC(RA(DEL))
             >;
         };
 
         keypad {
             display-name = "Kp";
             bindings = <
-&kp EQUAL     &kp F1        &kp F2      &kp F3      &kp F4      &kp F5  &trans                                                                      &mo 3       &kp F6          &kp F7          &kp F8          &kp F9              &kp F10          &kp MINUS
+&kp F11       &kp F1        &kp F2      &kp F3      &kp F4      &kp F5  &trans                                                                      &mo 3       &kp F6          &kp F7          &kp F8          &kp F9              &kp F10          &kp F12
 &kp TAB       &kp Q         &kp W       &kp E       &kp R       &kp T   &none                                                                       &none       &kp Y           &kp JP_CARET    &kp JP_LBRACKET &kp JP_RBRACKET     &kp KP_MINUS     &kp BSLH
 &kp ESC       &kp A         &kp S       &kp D       &kp F       &kp G   &none           &kp LCTRL       &kp LALT        &kp LGUI   &kp RCTRL        &none       &kp LEFT        &kp DOWN        &kp UP          &kp RIGHT           &kp KP_PLUS      &kp SQT
 &kp LSHFT     &kp Z         &kp X       &kp C       &kp V       &kp B                                   &kp HOME        &kp PG_UP                   &kp END     &kp JP_TILDE    &kp JP_LBRACE   &kp JP_RBRACE   &kp JP_UNDERSCORE   &kp RSHFT
