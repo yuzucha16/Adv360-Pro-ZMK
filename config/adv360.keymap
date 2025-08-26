@@ -65,9 +65,9 @@
             display-name = "Kp";
             bindings = <
 &kp F11         &kp F1      &kp F2      &kp F3      &kp F4          &kp F5      &trans                                                                  &mo 3       &kp F6          &kp F7      &kp F8          &kp F9          &kp F10             &kp F12
-&kp TAB         &kp Q       &kp W       &kp E       &kp UP          &kp T       &none                                                                   &none       &kp Y           &kp KP_N7   &kp KP_N8       &kp KP_N9       &kp KP_MINUS        &kp BSLH
+&kp F11         &kp F1      &kp F2      &kp F3      &kp F4          &kp F5      &none                                                                   &none       &kp F6          &kp F7      &kp F8          &kp F9          &kp F10             &kp F12
 &kp ESC         &kp A       &kp LEFT    &kp UP      &kp DOWN        &kp RIGHT   &none       &kp LCTRL       &kp LALT          &kp LGUI   &kp RCTRL      &none       &kp LEFT        &kp DOWN    &kp UP          &kp RIGHT       &kp JP_KANA         &kp SQT
-&kp LSHFT       &kp Z       &kp X       &kp C       &kp V           &kp B                                   &kp HOME          &kp PG_UP                             &kp N           &kp KP_N1   &kp KP_N2       &kp KP_N3       &kp KP_ENTER        &kp RSHFT
+&kp LSHFT       &kp Z       &kp X       &kp C       &kp UP          &kp B                                   &kp HOME          &kp PG_UP                             &kp N           &kp KP_N1   &kp KP_N2       &kp KP_N3       &kp KP_ENTER        &kp RSHFT
 &mo 2           &kp GRAVE   &kp CAPS    &kp A       &kp BACKSPACE   &kp JP_EISU             &kp BACKSPACE   &kp END           &kp PG_DN  &kp JP_EISU                &kp JP_HANZEN   &kp DOWN    &kp HOME        &kp KP_DOT      &kp RBKT            &mo 2
             >;
         };
