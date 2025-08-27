@@ -55,9 +55,9 @@
             bindings = <
 &kp JP_HANZEN   &kp N1      &kp N2      &kp N3      &kp N4          &kp N5      &tog 1                                                                  &mo 3       &kp N6       &kp N7         &kp N8          &kp N9          &kp N0              &kp MINUS
 &kp TAB         &kp Q       &kp W       &kp E       &kp R           &kp T       &none                                                                   &none       &kp Y        &kp U          &kp I           &kp O           &kp P               &kp JP_AT
-&kp ESC         &kp A       &kp S       &lt 1 D     &kp F           &kp G       &none       &kp ESC             &kp LALT      &kp LGUI   &kp RGUI    &none       &kp H        &kp J          &kp K           &kp L           &mt RCTRL SEMICOLON &kp JP_COLON
+&kp ESC         &kp A       &kp S       &lt 1 D     &kp F           &kp G       &none       &kp LALT            &kp LALT      &kp LGUI   &kp RGUI       &none       &kp H        &kp J          &kp K           &kp L           &mt RCTRL SEMICOLON &kp JP_COLON
 &kp LSHFT       &kp Z       &kp X       &kp C       &kp V           &kp B                                       &kp HOME      &kp PG_UP                             &kp N        &kp M          &kp COMMA       &kp DOT         &mt RALT SLASH      &kp JP_YEN
-&kp RG(RS(S))   &kp RC(Z)   &kp RC(Y)   &mt LALT ENTER &kp DELETE   &mt LSHFT SPACE         &mt RCTRL TAB       &kp END       &kp PG_DN  &kp BACKSPACE              &lt 1 ENTER  &kp JP_CARET   &kp JP_LBRACKET &kp JP_RBRACKET &kp JP_UNDERSCORE   &kp RC(RA(DEL))
+&kp RG(RS(S))   &kp RC(Z)   &kp RC(Y)   &mt LALT ENTER &kp DELETE   &mt LSHFT SPACE         &mt RCTRL JP_EISU   &kp END       &kp PG_DN  &kp BACKSPACE              &lt 1 ENTER  &kp JP_CARET   &kp JP_LBRACKET &kp JP_RBRACKET &kp JP_UNDERSCORE   &kp RC(RA(DEL))
             >;
         };
 
@@ -68,7 +68,7 @@
 &kp F11         &kp F1      &kp F2      &kp F3      &kp F4          &kp F5      &none                                                                   &none       &kp F6          &kp F7      &kp F8          &kp F9          &kp F10             &kp F12
 &kp ESC         &kp A       &kp LEFT    &kp UP      &kp DOWN        &kp RIGHT   &none       &kp LCTRL       &kp LALT          &kp LGUI   &kp RCTRL      &none       &kp LEFT        &kp DOWN    &kp UP          &kp RIGHT       &kp JP_KANA         &kp SQT
 &kp LSHFT       &kp Z       &kp X       &kp C       &kp UP          &kp B                                   &kp HOME          &kp PG_UP                             &kp N           &kp KP_N1   &kp KP_N2       &kp KP_N3       &kp KP_ENTER        &kp RSHFT
-&mo 2           &kp GRAVE   &kp CAPS    &kp A       &kp BACKSPACE   &kp JP_EISU             &kp BACKSPACE   &kp END           &kp PG_DN  &kp JP_EISU                &kp JP_HANZEN   &kp DOWN    &kp HOME        &kp KP_DOT      &kp RBKT            &mo 2
+&mo 2           &kp GRAVE   &kp CAPS    &kp A       &kp BACKSPACE   &kp BACKSPACE           &kp BACKSPACE   &kp END           &kp PG_DN  &kp JP_EISU                &kp JP_HANZEN   &kp DOWN    &kp HOME        &kp KP_DOT      &kp RBKT            &mo 2
             >;
         };
 
