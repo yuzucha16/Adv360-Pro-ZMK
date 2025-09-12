@@ -67,7 +67,7 @@
             bindings = <
 &kp JP_HANZEN   &kp F1      &kp F2      &kp F3      &kp F4          &kp F5      &tog 1                                                                  &mo 3       &kp F6       &kp F7         &kp F8          &kp F9          &kp F10             &kp F11
 &kp TAB         &kp Q       &kp W       &kp E       &kp R           &kp T       &none                                                                   &none       &kp Y        &kp U          &kp I           &kp O           &kp P               &kp JP_AT
-&kp c_sh        &kp A       &kp S       &kp D       &kp F           &kp G       &none       &kp RGUI            &kp LALT      &kp LGUI   &kp ESC        &none       &kp H        &kp J          &kp K           &kp L           &mt RCTRL SEMICOLON &kp JP_COLON
+&c_sh           &kp A       &kp S       &kp D       &kp F           &kp G       &none       &kp RGUI            &kp LALT      &kp LGUI   &kp ESC        &none       &kp H        &kp J          &kp K           &kp L           &mt RCTRL SEMICOLON &kp JP_COLON
 &kp LSHIFT      &kp Z       &kp X       &kp C       &kp V           &kp B                                       &kp HOME      &kp PG_UP                             &kp N        &kp M          &kp COMMA       &kp DOT         &mt RALT SLASH      &kp JP_YEN
 &kp RC(RA(DEL)) &kp ENTER &kp BACKSPACE &kp DOWN    &kp UP          &lt 1 SPACE             &mt RCTRL DELETE    &kp END       &kp PG_DN  &kp BACKSPACE              &lt 1 ENTER  &kp LEFT       &kp RIGHT       &kp JP_RBRACKET &kp JP_UNDERSCORE   &kp A
             >;
