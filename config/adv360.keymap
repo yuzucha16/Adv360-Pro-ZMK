@@ -77,10 +77,10 @@
             display-name = "Base";
             bindings = <
 &kp JP_HANZEN   &kp F1      &kp F2      &kp F3      &kp F4          &kp F5      &tog 1                                                                  &mo 3       &kp F6       &kp F7         &kp F8          &kp F9          &kp F10             &kp BACKSPACE
-&kp TAB         &kp Q       &kp W       &kp E       &kp R           &kp T       &none                                                                   &none       &kp Y        &kp U          &kp I           &kp O           &kp P               &kp MINUS
-&mt RCTRL ESC   &kp A       &kp S       &kp D       &kp F           &kp G       &none       &kp RC(RA(DEL))     &kp LALT      &kp LGUI   &kp RG(RS(S))  &none       &kp H        &kp J          &kp K           &kp L           &hm &c_sh SEMICOLON &hm &c_alt JP_COLON
-&kp LSHIFT      &kp Z       &kp X       &kp C       &kp V           &kp B                                       &kp HOME      &kp PG_UP                             &kp N        &kp M          &kp COMMA       &kp DOT         &mt RALT SLASH      &kp JP_YEN
-&kp RC(RA(DEL)) &kp ENTER &kp BACKSPACE &kp UP      &kp DOWN        &lt 1 SPACE             &mt RCTRL DELETE    &kp END       &kp PG_DN  &kp RGUI                   &lt 1 ENTER  &kp LEFT       &kp RIGHT       &kp JP_RBRACKET &kp JP_UNDERSCORE   &kp A
+&kp TAB         &kp Q       &kp W       &kp E       &kp R           &kp T       &none                                                                   &none       &kp Y        &kp U          &kp I           &kp O           &kp P               &kp BACKSPACE
+&mt RCTRL ESC   &kp A       &kp S       &kp D       &kp F           &kp G       &none       &kp RC(RA(DEL))     &kp LALT      &kp LGUI   &kp RG(RS(S))  &none       &kp H        &kp J          &kp K           &kp L           &hm &c_sh SEMICOLON &kp JP_COLON
+&kp LSHIFT      &kp LALT Z  &kp X       &kp C       &kp V           &kp B                                       &kp HOME      &kp PG_UP                             &kp N        &kp M          &kp COMMA       &kp DOT         &hm &c_alt SLASH    &kp JP_YEN
+&kp RC(Z)       &kp RC(Z)   &kp RC(Y)   &kp UP      &kp DOWN        &lt 1 SPACE             &mt RCTRL DELETE    &kp END       &kp PG_DN  &kp RGUI               &mt RALT ENTER   &kp LEFT       &kp RIGHT       &kp JP_RBRACKET &kp JP_UNDERSCORE   &kp A
             >;
         };
 
@@ -89,9 +89,9 @@
             bindings = <
 &kp F11         &kp F1      &kp F2      &kp F3      &kp F4          &kp F5      &trans                                                                  &mo 3       &kp F6         &kp F7       &kp F8          &kp F9          &kp F10             &kp F12
 &kp F11         &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)      &kp LS(N5)  &none                                                                   &none       &kp LS(N6)     &kp LS(N7)   &kp LS(N8)      &kp LS(N9)      &kp LS(N0)          &kp F12
-&kp JP_EISU     &kp N1      &kp N2      &kp N3      &kp N4          &kp N5      &none       &kp LCTRL       &kp LALT          &kp LGUI   &kp RCTRL      &none       &kp JP_CARET   &kp JP_AT    &kp JP_LBRACKET &kp JP_RBRACKET &kp JP_KANA         &kp SQT
-&kp LSHFT       &kp N6      &kp N7      &kp N8      &kp N9          &kp N0                                  &kp HOME          &kp PG_UP                             &kp JP_TILDE   &kp JP_BACKQ &kp JP_LBRACE   &kp JP_RBRACE   &kp RG(RS(S))       &kp RSHFT
-&mo 2           &kp LG(1)   &kp LG(2)   &kp LG(3)   &kp LG(4)       &kp UP                  &kp BACKSPACE   &kp END           &kp PG_DN  &kp JP_EISU                &kp JP_HANZEN  &kp RC(PG_UP) &kp RC(PG_DN)  &kp RC(RG(RIGHT)) &kp RA(F4)        &mo 2
+&kp JP_EISU     &kp N1      &kp N2      &kp N3      &kp N4          &kp N5      &none       &kp LCTRL       &kp LALT          &kp LGUI   &kp RCTRL      &none       &kp JP_CARET   &kp MINUS    &kp JP_LBRACKET &kp JP_RBRACKET &kp JP_AT           &kp SQT
+&kp LSHFT       &kp N6      &kp N7      &kp N8      &kp N9          &kp N0                                  &kp HOME          &kp PG_UP                             &kp JP_TILDE   &kp JP_EQUAL &kp JP_LBRACE   &kp JP_RBRACE   &kp JP_BACKQ        &kp RSHFT
+&mo 2           &kp A       &kp A       &kp ENTER   &kp BACKSPACE   &kp UP                  &kp BACKSPACE   &kp END           &kp PG_DN  &kp JP_EISU                &kp JP_HANZEN  &kp A        &kp A           &kp RC(RG(RIGHT)) &kp RA(F4)        &mo 2
             >;
         };
 
