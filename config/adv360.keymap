@@ -64,11 +64,11 @@
         keypad {
             display-name = "Kp";
             bindings = <
-&kp F11         &kp F1      &kp F2      &kp F3      &kp F4          &kp F5      &trans                                                                  &mo 3       &kp F6          &kp F7      &kp F8          &kp F9          &kp F10             &kp F12
-&kp F11         &kp F1      &kp F2      &kp F3      &kp F4          &kp F5      &none                                                                   &none       &kp F6          &kp F7      &kp F8          &kp F9          &kp F10             &kp F12
-&kp ESC         &kp N1      &kp N2      &kp N3      &kp N4          &kp N5      &none       &kp LCTRL       &kp LALT          &kp LGUI   &kp RCTRL      &none       &kp LEFT        &kp DOWN    &kp UP          &kp RIGHT       &kp JP_KANA         &kp SQT
-&kp LSHFT       &kp N6      &kp N7      &kp N8      &kp N9          &kp N0                                  &kp HOME          &kp PG_UP                             &kp N           &kp KP_N3   &kp RC(RA(TAB)) &kp RC(RS(ESC)) &kp RG(RS(S))       &kp RSHFT
-&mo 2           &kp GRAVE   &kp CAPS    &kp A       &kp BACKSPACE   &kp UP                  &kp BACKSPACE   &kp END           &kp PG_DN  &kp JP_EISU                &kp JP_HANZEN   &kp DOWN    &kp RC(RG(LEFT)) &kp RC(RG(RIGHT)) &kp RA(F4)       &mo 2
+&kp F11         &kp F1      &kp F2      &kp F3      &kp F4          &kp F5      &trans                                                                  &mo 3       &kp F6         &kp F7       &kp F8          &kp F9          &kp F10             &kp F12
+&kp F11         &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)      &kp LS(N5)  &none                                                                   &none       &kp LS(N6)     &kp LS(N7)   &kp LS(N8)      &kp LS(N9)      &kp LS(N0)          &kp F12
+&kp ESC         &kp N1      &kp N2      &kp N3      &kp N4          &kp N5      &none       &kp LCTRL       &kp LALT          &kp LGUI   &kp RCTRL      &none       &kp LEFT       &kp JP_CARET &kp JP_LBRACKET &kp JP_RBRACKET &kp JP_KANA         &kp SQT
+&kp LSHFT       &kp N6      &kp N7      &kp N8      &kp N9          &kp N0                                  &kp HOME          &kp PG_UP                             &kp N          &kp JP_TILDE &kp JP_LBRACE   &kp JP_RBRACE   &kp RG(RS(S))       &kp RSHFT
+&mo 2           &kp GRAVE   &kp CAPS    &kp DOWN    &kp UP          &kp UP                  &kp BACKSPACE   &kp END           &kp PG_DN  &kp JP_EISU                &kp JP_HANZEN  &kp LEFT     &kp RIGHT       &kp RC(RG(RIGHT)) &kp RA(F4)       &mo 2
             >;
         };
 
