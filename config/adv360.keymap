@@ -78,9 +78,9 @@
             bindings = <
 &kp JP_HANZEN   &kp F1      &kp F2      &kp F3      &kp F4          &kp F5      &tog 1                                                                  &mo 3       &kp F6       &kp F7         &kp F8          &kp F9          &kp F10             &kp MINUS
 &kp TAB         &kp Q       &kp W       &kp E       &kp R           &kp T       &none                                                                   &none       &kp Y        &kp U          &kp I           &kp O           &kp P               &kp JP_AT
-&mt RCTRL ESC   &kp A       &kp S       &kp D       &kp F           &kp G       &none       &kp LALT            &kp LALT      &kp LGUI   &kp RGUI       &none       &kp H        &kp J          &kp K           &kp L           &hm &c_sh SEMICOLON &hm &c_alt JP_COLON
-&kp LSHIFT      &kp Z       &kp X       &kp C       &kp V           &kp B                                       &kp HOME      &kp PG_UP                             &kp N        &kp M          &kp COMMA       &kp DOT         &mt RALT SLASH      &kp JP_YEN
-&kp RC(RA(DEL)) &kp RC(Z)   &kp RC(Y)   &kp UP      &kp DOWN        &lt 1 SPACE             &mt RCTRL DELETE    &kp END       &kp PG_DN  &kp BACKSPACE          &mt RSHIFT ENTER &kp LEFT       &kp RIGHT       &kp A           &kp JP_UNDERSCORE   &kp A
+&mt RCTRL ESC   &kp A       &kp S       &lt 1 D     &kp F           &kp G       &none       &kp LALT            &kp LALT      &kp LGUI   &kp RGUI       &none       &kp H        &kp J          &kp K           &kp L           &hm &c_sh SEMICOLON &hm &c_alt JP_COLON
+&kp LSHIFT      &mt LALT Z  &kp X       &kp C       &kp V           &kp B                                       &kp HOME      &kp PG_UP                             &kp N        &kp M          &kp COMMA       &kp DOT         &mt RALT SLASH      &kp JP_YEN
+&kp RC(RA(DEL)) &kp RC(Z)   &kp RC(Y)   &kp ENTER   &kp BACKSPACE   &lt 1 SPACE             &mt RCTRL DELETE    &kp END       &kp PG_DN  &kp BACKSPACE          &mt RSHIFT ENTER &kp JP_CARET   &kp JP_LBRACKET &kp JP_RBRACKET &kp JP_UNDERSCORE   &kp A
             >;
         };
 
@@ -89,9 +89,9 @@
             bindings = <
 &kp F11         &kp F1      &kp F2      &kp F3      &kp F4          &kp F5      &trans                                                                  &mo 3       &kp F6         &kp F7       &kp F8          &kp F9          &kp F10             &kp F12
 &kp F11         &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)      &kp LS(N5)  &none                                                                   &none       &kp LS(N6)     &kp LS(N7)   &kp LS(N8)      &kp LS(N9)      &kp LS(N0)          &kp F12
-&kp JP_EISU     &kp N1      &kp N2      &kp N3      &kp N4          &kp N5      &none       &kp LCTRL       &kp LALT          &kp LGUI   &kp JP_KANA    &none       &kp A          &kp A        &kp JP_LBRACKET &kp JP_RBRACKET &kp JP_CARET        &kp SQT
-&kp LSHFT       &kp N6      &kp N7      &kp N8      &kp N9          &kp N0                                  &kp HOME          &kp PG_UP                             &kp A          &kp A        &kp JP_LBRACE   &kp JP_RBRACE   &kp JP_TILDE        &kp RSHFT
-&mo 2           &kp A       &kp A       &kp ENTER   &kp BACKSPACE   &kp UP                  &kp A           &kp END           &kp PG_DN  &kp JP_EISU                &kp JP_HANZEN  &kp A        &kp A           &kp A           &kp A               &mo 2
+&kp JP_EISU     &kp N1      &kp N2      &kp N3      &kp N4          &kp N5      &none       &kp LCTRL       &kp LALT          &kp LGUI   &kp RGUI       &none       &kp LEFT       &kp DOWN     &kp UP          &kp RIGHT       &kp JP_CARET        &kp SQT
+&kp LSHFT       &kp N6      &kp N7      &kp N8      &kp N9          &kp N0                                  &kp HOME          &kp PG_UP                             &kp A          &kp A        &kp A           &kp A           &kp A               &kp RSHFT
+&mo 2           &kp A       &kp A       &kp A       &kp A           &kp A                   &kp A           &kp END           &kp PG_DN  &kp JP_EISU                &kp JP_HANZEN  &kp A        &kp A           &kp A           &kp A               &mo 2
             >;
         };
 
