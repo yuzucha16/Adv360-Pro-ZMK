@@ -78,9 +78,9 @@
             bindings = <
 &kp JP_HANZEN   &kp F1      &kp F2      &kp F3      &kp F4          &kp F5      &tog 1                                                                  &mo 3       &kp F6       &kp F7         &kp F8          &kp F9          &kp F10             &kp BACKSPACE
 &kp TAB         &kp Q       &kp W       &kp E       &kp R           &kp T       &none                                                                   &none       &kp Y        &kp U          &kp I           &kp O           &kp P               &kp BACKSPACE
-&mt RCTRL ESC   &kp A       &kp S       &kp D       &kp F           &kp G       &none       &kp RC(RA(DEL))     &kp LALT      &kp LGUI   &kp RG(RS(S))  &none       &kp H        &kp J          &kp K           &kp L           &hm &c_sh SEMICOLON &kp JP_COLON
+&mt RCTRL ESC   &mt RCTRL A &kp S       &kp D       &kp F           &kp G       &none       &kp RGUI            &kp LALT      &kp LGUI   &kp ESC        &none       &kp H        &kp J          &kp K           &kp L           &hm &c_sh SEMICOLON &kp JP_COLON
 &kp LSHIFT      &mt LALT Z  &kp X       &kp C       &kp V           &kp B                                       &kp HOME      &kp PG_UP                             &kp N        &kp M          &kp COMMA       &kp DOT         &hm &c_alt SLASH    &kp JP_YEN
-&kp RC(Z)       &kp RC(Z)   &kp RC(Y)   &kp UP      &kp DOWN        &lt 1 SPACE             &mt RCTRL DELETE    &kp END       &kp PG_DN  &kp RGUI               &mt RALT ENTER   &kp LEFT       &kp RIGHT       &kp JP_RBRACKET &kp JP_UNDERSCORE   &kp A
+&kp RC(RA(DEL)) &kp RC(Z)   &kp RC(Y)   &kp UP      &kp DOWN        &lt 1 SPACE             &mt RCTRL DELETE    &kp END       &kp PG_DN  &mt RALT TAB               &mt RSHIFT ENTER &kp LEFT   &kp RIGHT       &kp JP_RBRACKET &kp JP_UNDERSCORE   &kp A
             >;
         };
 
