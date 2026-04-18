@@ -55,20 +55,20 @@
             bindings = <
 &kp EISU	    &kp N1      &kp N2      &kp N3      &kp N4          &kp N5      &tog 1                                                                  &mo 3       &kp N6       &kp N7         &kp N8          &kp N9          &kp N0              &kp MINUS
 &kp TAB       &kp Q       &kp W       &kp E       &kp R           &kp T       &none                                                                   &none       &kp Y        &kp U          &kp I           &kp O           &kp P               &kp JP_AT
-&kp ENTER 		&kp A       &kp S       &kp D       &kp F           &kp G       &none       &kp LGUI            &kp LG(LS(S)) &kp RC(RA(DEL)) &kp KANA    &none        &kp H          &kp J          &kp K           &kp L           &mt RCTRL SEMICOLON &kp JP_COLON
+&kp ENTER 		&kp A       &kp S       &kp D       &kp F           &kp G       &none       &kp LGUI            &kp LG(LS(S)) &kp RC(RA(DEL)) &kp KANA  &none       &kp H        &kp J          &kp K           &kp L           &mt RCTRL SEMICOLON &kp JP_COLON
 &kp LSHIFT    &kp Z       &kp X       &kp C       &kp V           &kp B                                       &kp HOME      &kp PG_UP                             &kp N        &kp M          &kp COMMA       &kp DOT         &kp SLASH           &kp JP_YEN
-&kp A         &kp RC(Z)   &kp RC(Y)   &kp A       &kp ESC         &mt LSHIFT BACKSPACE    &mt RCTRL DELETE    &kp END       &kp PG_DN  &kp RALT                   &lt 1 SPACE  &kp CARET     	&kp LBRACKET 	&kp RBRACKET 	&kp USCORE   		&kp A
+&kp A         &kp RC(Z)   &kp RC(Y)   &kp A       &kp ESC         &mt LSHIFT BACKSPACE    &mt RCTRL DELETE    &kp END       &kp PG_DN       &kp RALT              &lt 1 SPACE  &kp CARET     	&kp LBRACKET 	  &kp RBRACKET 	  &kp USCORE   		    &kp A
             >;
         };
 
         keypad {
             display-name = "Kp";
             bindings = <
-&kp F11         &kp F1      &kp F2      &kp F3      &kp F4          &kp F5      &trans                                                                  &mo 3       &kp F6         &kp F7       &kp F8          &kp F9          &kp F10             &kp F12
-&kp F11         &trans  	&trans  	&trans  	&trans      	&trans  	&none                                                                   &none       &trans	       &kp HOME     &kp PG_UP       &kp END         &kp JP_BACKQ        &kp F12
-&trans   		&kp N1      &kp N2      &kp N3      &kp N4          &kp N5      &none       &trans       		&trans        &trans   	 &trans         &none       &kp LEFT       &kp DOWN     &kp UP          &kp RIGHT       &kp CARET        	&kp SQT
-&trans          &kp N6      &kp N7      &kp N8      &kp N9          &kp N0                                  	&trans        &trans                             	&trans		   &trans       &kp PG_DN       &trans			&trans              &trans
-&mo 2           &trans      &trans      &trans      &trans          &trans                  &trans        		&trans        &trans  	 &trans  	                &trans		   &trans		&trans			&trans			&trans              &mo 2
+&kp F11       &kp F1      &kp F2      &kp F3      &kp F4          &kp F5      &trans                                                                  &mo 3       &kp F6         &kp F7       &kp F8          &kp F9          &kp F10             &kp F12
+&kp F11       &trans    	&trans  	  &trans  	  &trans        	&trans    	&none                                                                   &none       &trans	       &kp HOME     &kp PG_UP       &kp END         &trans              &kp F12
+&trans   		  &kp N1      &kp N2      &kp N3      &kp N4          &kp N5      &none       &trans       		    &trans        &trans   	 &trans         &none       &kp LEFT       &kp DOWN     &kp UP          &kp RIGHT       &trans        	    &kp SQT
+&trans        &kp N6      &kp N7      &kp N8      &kp N9          &kp N0                                  	  &trans        &trans                             	  &trans		     &trans       &kp PG_DN       &trans			    &trans              &trans
+&mo 2         &trans      &trans      &trans      &trans          &trans                  &trans        		  &trans        &trans  	 &trans  	                  &trans		     &trans   		&trans			    &trans			    &trans              &mo 2
             >;
         };
 
