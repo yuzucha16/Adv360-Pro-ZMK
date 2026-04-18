@@ -31,13 +31,13 @@
 #define EISU            LANGUAGE_2        // 英数
 #define JP_HANZEN       GRAVE             // 半角/全角
 
-#define SF              LS
+#define SF              LSHIFT
 #define ETR             ENTER
 #define UNDO            RC(Z)
 #define REDO            RC(Y)
 #define BS              BACKSPACE
 #define DEL             DELETE
-#define CT              RC
+#define CT              RCTRL
 #define SCR             LG(LS(S))
 #define CAD             RC(RA(DEL))
 #define SP              SPACE
@@ -69,7 +69,7 @@
 &kp TAB   &kp Q     &kp W     &kp E     &kp R     &kp T     &none                                                   &none     &kp Y     &kp U     &kp I      &kp O     &kp P       &kp JP_AT
 &kp ETR 	&kp A     &kp S     &kp D     &kp F     &kp G     &none      &kp LGUI   &kp SCR        &kp CAD   &kp KANA &none     &kp H     &kp J     &kp K      &kp L     &mt CT SCLN &kp JP_COLON
 &kp SF    &kp Z     &kp X     &kp C     &kp V     &kp B                           &kp HOME       &kp PG_UP                    &kp N     &kp M     &kp COMMA  &kp DOT   &kp SLASH   &kp JP_YEN
-&kp A     &kp UNDO  &kp REDO  &kp A     &kp ESC   &mt SF BS            &mt CT DEL &kp END        &kp PG_DN &kp RALT           &lt 1 SP  &kp CARET &kp LBRT  &kp RBRT   &kp USCORE  &kp A
+&kp A     &kp UNDO  &kp REDO  &kp A     &kp ESC   &mt SF BS            &mt CT DEL &kp END        &kp PG_DN &kp RALT           &lt 1 SP  &kp CARET &kp LBRT   &kp RBRT  &kp USCORE  &kp A
             >;
         };
 
