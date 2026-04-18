@@ -21,8 +21,8 @@
 #define JP_ASTERISK     DOUBLE_QUOTES     // *
 #define JP_BACKQ        LEFT_BRACE        // `
 #define USCORE   LS(0x87)          // _
-#define LBRACKET     RIGHT_BRACKET     // [
-#define RBRACKET     BACKSLASH         // ]
+#define LBRT     RIGHT_BRACKET     // [
+#define RBRT     BACKSLASH         // ]
 #define JP_LPAREN       ASTERISK          // (
 #define JP_RPAREN       LEFT_PARENTHESIS  // )
 #define JP_LBRACE       RIGHT_BRACE       // {
@@ -31,14 +31,17 @@
 #define EISU            LANGUAGE_2        // 英数
 #define JP_HANZEN       GRAVE             // 半角/全角
 
-#define SF              LSHIFT
+#define SF              LS
 #define ETR             ENTER
 #define UNDO            RC(Z)
 #define REDO            RC(Y)
 #define BS              BACKSPACE
 #define DEL             DELETE
-#define CTR             RCTRL
+#define CT              RC
 #define SCR             LG(LS(S))
+#define CAD             RC(RA(DEL))
+#define SP              SPACE
+#define SCLN            SEMICOLON
 
 / {
     behaviors {
@@ -62,11 +65,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp EISU	&kp N1    &kp N2    &kp N3    &kp N4    &kp N5    &tog 1                                                    &mo 3       &kp N6       &kp N7         &kp N8          &kp N9          &kp N0              &kp MINUS
-&kp TAB   &kp Q     &kp W     &kp E     &kp R     &kp T     &none                                                     &none       &kp Y        &kp U          &kp I           &kp O           &kp P               &kp JP_AT
-&kp ETR 	&kp A     &kp S     &kp D     &kp F     &kp G     &none       &kp LGUI  &kp SCR    &kp RC(RA(DEL)) &kp KANA  &none       &kp H        &kp J          &kp K           &kp L           &mt RCTRL SEMICOLON &kp JP_COLON
-&kp SF    &kp Z     &kp X     &kp C     &kp V     &kp B                           &kp HOME   &kp PG_UP                             &kp N        &kp M          &kp COMMA       &kp DOT         &kp SLASH           &kp JP_YEN
-&kp A     &kp UNDO  &kp REDO  &kp A     &kp ESC   &mt SF BS &mt CTR DEL &kp END   &kp PG_DN  &kp RALT        &lt 1 SPACE  &kp CARET     	&kp LBRACKET 	  &kp RBRACKET 	  &kp USCORE   		    &kp A
+&kp EISU	&kp N1    &kp N2    &kp N3    &kp N4    &kp N5    &tog 1                                                  &mo 3     &kp N6    &kp N7    &kp N8     &kp N9    &kp N0      &kp MINUS
+&kp TAB   &kp Q     &kp W     &kp E     &kp R     &kp T     &none                                                   &none     &kp Y     &kp U     &kp I      &kp O     &kp P       &kp JP_AT
+&kp ETR 	&kp A     &kp S     &kp D     &kp F     &kp G     &none      &kp LGUI   &kp SCR        &kp CAD   &kp KANA &none     &kp H     &kp J     &kp K      &kp L     &mt CT SCLN &kp JP_COLON
+&kp SF    &kp Z     &kp X     &kp C     &kp V     &kp B                           &kp HOME       &kp PG_UP                    &kp N     &kp M     &kp COMMA  &kp DOT   &kp SLASH   &kp JP_YEN
+&kp A     &kp UNDO  &kp REDO  &kp A     &kp ESC   &mt SF BS            &mt CT DEL &kp END        &kp PG_DN &kp RALT           &lt 1 SP  &kp CARET &kp LBRT  &kp RBRT   &kp USCORE  &kp A
             >;
         };
 
