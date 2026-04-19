@@ -80,7 +80,7 @@
 &kp F11   &trans    &trans  	&trans  	&trans    &trans    &none                                                   &none   &trans	   &kp HOME  &kp PG_UP  &kp END   &trans      &kp F12
 &trans   	&kp N1    &kp N2    &kp N3    &kp N4    &kp N5    &none      &trans     &trans         &trans    &trans   &none   &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT &trans      &kp SQT
 &trans    &kp N6    &kp N7    &kp N8    &kp N9    &kp N0                          &trans         &trans                     &trans		 &trans    &kp PG_DN  &trans	  &trans      &trans
-&mo 2     &trans    &trans    &trans    &trans              &EISU      &trans     &trans         &trans  	 &trans  	&KANA 	           &trans    &trans     &trans	  &trans      &mo 2
+&mo 2     &trans    &trans    &trans    &trans              &kp EISU   &trans     &trans         &trans  	 &trans  	&kp KANA           &trans    &trans     &trans	  &trans      &mo 2
             >;
         };
 
