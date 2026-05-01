@@ -67,9 +67,9 @@
             bindings = <
 &kp HANZE	&kp N1    &kp N2    &kp N3    &kp N4    &kp N5    &tog 1                                                  &mo 3   &kp N6     &kp N7    &kp N8     &kp N9    &kp N0      &kp MINUS
 &kp TAB   &kp Q     &kp W     &kp E     &kp R     &kp T     &none                                                   &none   &kp Y      &kp U     &kp I      &kp O     &kp P       &kp JP_AT
-&kp ESC 	&kp A     &kp S     &lt 1 D   &kp F     &kp G     &none      &kp RALT   &kp SCR        &kp A     &kp LWIN &none   &kp H      &kp J     &kp K      &kp L     &mt CT SCLN &kp JP_COLON
+&mt CT ESC	&kp A   &kp S     &lt 1 D   &kp F     &kp G     &none      &kp RALT   &kp SCR        &kp A     &kp LWIN &none   &kp H      &kp J     &kp K      &kp L     &mt CT SCLN &kp JP_COLON
 &kp SF    &kp Z     &kp X     &kp C     &kp V     &kp B                           &kp HOME       &kp PG_UP                  &kp N      &kp M     &kp COMMA  &kp DOT   &kp SLASH   &kp JP_YEN
-&kp CAD   &kp UNDO  &kp REDO  &kp ETR   &kp BS              &lt 1 SP   &mt CT DEL &kp END        &kp PG_DN &kp ETR  &kp BS             &kp TAB   &kp LBRT   &kp RBRT  &kp USCORE  &kp CARET
+&kp CAD   &kp UNDO  &kp REDO  &kp ETR   &kp BS              &lt 1 SP   &mt SF DEL &kp END        &kp PG_DN &kp ETR  &kp BS             &kp TAB   &kp LBRT   &kp RBRT  &kp USCORE  &kp CARET
             >;
         };
 
