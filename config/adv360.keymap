@@ -84,7 +84,7 @@
             >;
         };
         
-        keypad {
+        Kq {
             display-name = "Kq";
             bindings = <
 &trans    &kp F11   &kp F12   &trans    &trans    &trans    &trans                                                  &mo 3   &trans     &trans    &trans     &trans    &trans      &kp F12
