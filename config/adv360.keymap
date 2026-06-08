@@ -77,7 +77,7 @@
 &kp TAB   &kp Q     &kp W     &kp E     &kp R     &kp T     &none                                                   &none   &kp Y      &kp U     &kp I      &kp O     &kp P       &kp JP_AT
 &mt CT ESC &kp A    &kp S     &lt 2 D   &kp F     &kp G     &none      &kp RALT   &kp SCR        &kp CAD   &kp LWIN &none   &kp H      &kp J     &kp K      &kp L     &mt CT SCLN &kp JP_COLON
 &kp SF    &kp Z     &kp X     &kp C     &kp V     &kp B                           &kp HOME       &kp PG_UP                  &kp N      &kp M     &kp COMMA  &kp DOT   &kp SLASH   &kp JP_YEN
-&kp ESC   &kp RC(Z) &kp RC(X) &kp ETR   &kp BS              &lt 1 SP   &mt CT DEL &kp END        &kp PG_DN &kp ETR  &kp BS             &kp TAB   &kp LBRT   &kp RBRT  &kp USCORE  &kp JP_PIPE
+&kp ESC   &mkp RCLK &kp RC(X) &kp ETR   &kp BS              &lt 1 SP   &mt CT DEL &kp END        &kp PG_DN &kp ETR  &kp BS             &kp TAB   &kp LBRT   &kp RBRT  &kp USCORE  &kp JP_PIPE
             >;
         };
 
