@@ -46,6 +46,11 @@
 #define SP              SPACE
 #define SCLN            SEMICOLON
 
+#define SC_L            SCRL_LEFT
+#define SC_R            SCRL_RIGHT
+#define SC_U            SCRL_UP
+#define SC_D            SCRL_DOWN
+
 / {
     behaviors {
       #include "macros.dtsi"
@@ -70,9 +75,9 @@
             bindings = <
 &kp HANZE	&kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &tog 1                                                  &mo 3   &kp F6     &kp F7    &kp F8     &kp F9    &kp F10     &kp MINUS
 &kp TAB   &kp Q     &kp W     &kp E     &kp R     &kp T     &none                                                   &none   &kp Y      &kp U     &kp I      &kp O     &kp P       &kp JP_AT
-&kp CT    &kp A     &kp S     &lt 2 D   &kp F     &kp G     &none      &kp RALT   &kp SCR        &kp CAD   &kp LWIN &none   &kp H      &kp J     &kp K      &kp L     &mt CT SCLN &kp JP_COLON
+&mt CT ESC &kp A    &kp S     &lt 2 D   &kp F     &kp G     &none      &kp RALT   &kp SCR        &kp CAD   &kp LWIN &none   &kp H      &kp J     &kp K      &kp L     &mt CT SCLN &kp JP_COLON
 &kp SF    &kp Z     &kp X     &kp C     &kp V     &kp B                           &kp HOME       &kp PG_UP                  &kp N      &kp M     &kp COMMA  &kp DOT   &kp SLASH   &kp JP_YEN
-&kp ESC   &kp RC(Z) &kp RC(X) &kp ETR   &kp BS              &lt 1 SP   &mt SF DEL &kp END        &kp PG_DN &kp ETR  &kp BS             &kp TAB   &kp LBRT   &kp RBRT  &kp USCORE  &kp JP_PIPE
+&kp ESC   &kp RC(Z) &kp RC(X) &kp ETR   &kp BS              &lt 1 SP   &mt CT DEL &kp END        &kp PG_DN &kp ETR  &kp BS             &kp TAB   &kp LBRT   &kp RBRT  &kp USCORE  &kp JP_PIPE
             >;
         };
 
@@ -91,7 +96,7 @@
             display-name = "Kq";
             bindings = <
 &trans    &kp F11   &kp F12   &trans    &trans    &trans    &trans                                                  &mo 3   &trans     &trans    &trans     &trans    &trans      &kp F12
-&trans    &trans    &trans    &trans    &trans    &trans    &none                                                   &none   &trans     &msc SCRL_LEFT &msc SCRL_DOWN  &msc SCRL_UP &msc SCRL_RIGHT    &kp F12
+&trans    &trans    &trans    &trans    &trans    &trans    &none                                                   &none   &trans     &msc SC_L &msc SC_D  &msc SC_U &msc SC_R   &kp F12
 &trans   	&trans    &trans    &trans    &trans    &trans    &none      &trans     &trans         &trans    &trans   &none   &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT &trans      &kp SQT
 &trans    &trans    &trans    &trans    &trans    &trans                          &trans         &trans                     &trans     &trans    &trans     &trans    &trans      &trans
 &mo 2     &trans    &trans    &trans    &trans              &trans     &trans     &trans         &trans  	 &trans  	&trans             &trans    &trans     &trans	  &trans      &mo 2
