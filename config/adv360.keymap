@@ -85,7 +85,7 @@
         };
         
         keypad {
-            display-name = "Kq";
+            display-name = "Kp";
             bindings = <
 &trans    &kp F11   &kp F12   &trans    &trans    &trans    &trans                                                  &mo 3   &trans     &trans    &trans     &trans    &trans      &kp F12
 &trans    &kp EXCL  &kp JP_DQ &kp HASH  &kp DLLR  &kp PRCNT &none                                                   &none   &kp JP_AMP &kp JP_Q  &kp JP_LP  &kp JP_RP &trans      &kp F12
