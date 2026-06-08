@@ -67,17 +67,17 @@
             bindings = <
 &kp HANZE	&kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &tog 1                                                  &mo 3   &kp F6     &kp F7    &kp F8     &kp F9    &kp F10     &kp MINUS
 &kp TAB   &kp Q     &kp W     &kp E     &kp R     &kp T     &none                                                   &none   &kp Y      &kp U     &kp I      &kp O     &kp P       &kp JP_AT
-&kp CT    &kp A     &kp S     &lt 1 D   &kp F     &kp G     &none      &kp RALT   &kp SCR        &kp A     &kp LWIN &none   &kp H      &kp J     &kp K      &kp L     &mt CT SCLN &kp JP_COLON
+&kp CT    &kp A     &kp S     &lt 1 D   &kp F     &kp G     &none      &kp RALT   &kp SCR        &kp CAD   &kp LWIN &none   &kp H      &kp J     &kp K      &kp L     &mt CT SCLN &kp JP_COLON
 &kp SF    &kp Z     &kp X     &kp C     &kp V     &kp B                           &kp HOME       &kp PG_UP                  &kp N      &kp M     &kp COMMA  &kp DOT   &kp SLASH   &kp JP_YEN
-&kp CAD   &kp UNDO  &kp REDO  &kp ETR   &kp BS              &lt 1 SP   &mt SF DEL &kp END        &kp PG_DN &kp ETR  &kp BS             &kp TAB   &kp LBRT   &kp RBRT  &kp USCORE  &kp JP_PIPE
+&kp ESC   &kp UNDO  &kp REDO  &kp ETR   &kp BS              &lt 1 SP   &mt SF DEL &kp END        &kp PG_DN &kp ETR  &kp BS             &kp TAB   &kp LBRT   &kp RBRT  &kp USCORE  &kp JP_PIPE
             >;
         };
 
         keypad {
             display-name = "Kp";
             bindings = <
-&kp F11   &kp F11   &kp F12   &trans    &trans    &kp F5    &trans                                                  &mo 3   &trans     &trans    &trans     &trans    &trans      &kp F12
-&kp F11   &kp EXCL  &kp JP_DQ &kp HASH  &kp DLLR  &kp PRCNT &none                                                   &none   &kp JP_AMP &kp JP_Q  &kp JP_LP  &kp JP_RP &trans      &kp F12
+&trans    &kp F11   &kp F12   &trans    &trans    &trans    &trans                                                  &mo 3   &trans     &trans    &trans     &trans    &trans      &kp F12
+&trans    &kp EXCL  &kp JP_DQ &kp HASH  &kp DLLR  &kp PRCNT &none                                                   &none   &kp JP_AMP &kp JP_Q  &kp JP_LP  &kp JP_RP &trans      &kp F12
 &trans   	&kp N1    &kp N2    &kp N3    &kp N4    &kp N5    &none      &trans     &trans         &trans    &trans   &none   &trans     &kp CARET &kp LBRT   &kp RBRT  &trans      &kp SQT
 &trans    &kp N6    &kp N7    &kp N8    &kp N9    &kp N0                          &trans         &trans                     &trans		 &kp JP_TI &kp JP_LB  &kp JP_RB &trans      &trans
 &mo 2     &trans    &trans    &trans    &trans              &trans     &trans     &trans         &trans  	 &trans  	&kp KANA           &trans    &trans     &trans	  &trans      &mo 2
