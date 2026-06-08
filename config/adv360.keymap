@@ -96,9 +96,9 @@
             display-name = "Kq";
             bindings = <
 &trans    &trans    &trans    &trans    &trans    &trans    &trans                                                  &mo 3   &trans     &trans    &trans     &trans    &trans      &kp F12
-&trans    &trans    &mkp RCLK &mkp MCLK &mkp LCLK &trans    &none                                                   &none   &trans     &trans    &trans     &trans    &trans      &kp F12
-&trans   	&trans    &msc SC_L &msc SC_U &msc SC_D &msc SC_R &none      &trans     &trans         &trans    &trans   &none   &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT &trans      &kp SQT
-&trans    &kp RC(Z) &kp RC(X) &kp RC(C) &kp RC(V) &trans                          &trans         &trans                     &trans     &trans    &trans     &trans    &trans      &trans
+&trans    &trans    &trans    &msc SC_U &trans    &trans    &none                                                   &none   &trans     &trans    &trans     &trans    &trans      &kp F12
+&trans   	&trans    &msc SC_L &msc SC_D &msc SC_R &trans    &none      &trans     &trans         &trans    &trans   &none   &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT &trans      &kp SQT
+&trans    &trans    &mkp RCLK &mkp MCLK &mkp LCLK &trans                          &trans         &trans                     &trans     &trans    &trans     &trans    &trans      &trans
 &mo 2     &trans    &trans    &trans    &trans              &trans     &trans     &trans         &trans  	 &trans  	&trans             &trans    &trans     &trans	  &trans      &mo 2
             >;
         };
