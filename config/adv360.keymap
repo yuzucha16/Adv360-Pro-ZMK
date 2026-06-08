@@ -55,7 +55,7 @@
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
             tapping-term-ms = <150>;
-            quick_tap_ms = <100>;
+            quick-tap-ms = <100>;
             flavor = "hold-preferred";
             bindings = <&kp>, <&kp>;
         };
@@ -82,7 +82,7 @@
 &trans    &kp EXCL  &kp JP_DQ &kp HASH  &kp DLLR  &kp PRCNT &none                                                   &none   &kp JP_AMP &kp JP_Q  &kp JP_LP  &kp JP_RP &trans      &kp F12
 &trans   	&kp N1    &kp N2    &kp N3    &kp N4    &kp N5    &none      &trans     &trans         &trans    &trans   &none   &trans     &kp CARET &kp LBRT   &kp RBRT  &trans      &kp SQT
 &trans    &kp N6    &kp N7    &kp N8    &kp N9    &kp N0                          &trans         &trans                     &trans		 &kp JP_TI &kp JP_LB  &kp JP_RB &trans      &trans
-&mo 2     &trans    &trans    &trans    &trans              &trans     &trans     &trans         &trans  	 &trans  	&kp KANA           &trans    &trans     &trans	  &trans      &mo 2
+&mo 2     &kp RC(Z) &kp RC(X) &kp RC(C) &kp RC(V)           &trans     &trans     &trans         &trans  	 &trans  	&kp KANA           &trans    &trans     &trans	  &trans      &mo 2
             >;
         };
         
