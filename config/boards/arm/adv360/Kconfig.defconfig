@@ -34,10 +34,7 @@ config SPI
 
 config BT_CTLR
     default BT
-    
-config ZMK_POINTING
-    default y
-    
+
 if USB
 
 config USB_NRFX
