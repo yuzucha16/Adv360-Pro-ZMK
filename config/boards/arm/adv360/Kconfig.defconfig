@@ -51,6 +51,7 @@ config ZMK_BATTERY_VOLTAGE_DIVIDER
 config SPI
     default y
 
-
+config ZMK_POINTING
+    default y
 
 endif # BOARD_ADV360_LEFT || BOARD_ADV360_RIGHT
