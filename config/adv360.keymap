@@ -12,7 +12,7 @@
 #define JP_AMP          CARET             // &
 #define JP_Q            AMPERSAND         // '
 #define JP_EQUAL        UNDER             // =
-#define CARET           EQUAL             // ^
+#define JP_CRT          EQUAL             // ^
 #define JP_YEN          0x89              // ¥
 #define JP_PLUS         COLON             // +
 #define JP_TI           PLUS              // ~
@@ -21,9 +21,9 @@
 #define JP_COLON        SINGLE_QUOTE      // :
 #define JP_ASTERISK     DOUBLE_QUOTES     // *
 #define JP_BACKQ        LEFT_BRACE        // `
-#define USCORE          LS(0x87)          // _
-#define LBRT            RIGHT_BRACKET     // [
-#define RBRT            BACKSLASH         // ]
+#define JP_USC          LS(0x87)          // _
+#define JP_LBRT         RIGHT_BRACKET     // [
+#define JP_RBRT         BACKSLASH         // ]
 #define JP_LP           ASTERISK          // (
 #define JP_RP           LEFT_PARENTHESIS  // )
 #define JP_LB           RIGHT_BRACE       // {
@@ -81,18 +81,18 @@
 &kp TAB   &kp Q     &kp W     &kp E     &kp R     &kp T     &none                                                   &none   &kp Y      &kp U     &kp I      &kp O     &kp P        &kp JP_AT
 &kp CT    &kp A     &kp S     &lt 2 D   &kp F     &kp G     &none      &kp SCR    &kp SCR        &trans    &kp LWIN &none   &kp H      &kp J     &kp K      &kp L     &mt AL SCLN  &kp JP_COLON
 &kp SF    &kp Z     &kp X     &kp C     &kp V     &kp B                           &kp HOME       &kp PG_UP                  &kp N      &kp M     &kp COMMA  &kp DOT   &mt SF SLASH &kp JP_YEN
-&kp EISU  &kp LWIN  &kp LALT  &kp ETR   &kp BS              &lt 1 SP   &lt 2 DEL  &kp END        &kp PG_DN &kp ETR  &kp BS             &trans    &trans     &trans    &trans       &kp USCORE
+&kp EISU  &kp LWIN  &kp LALT  &kp ETR   &kp BS              &lt 1 SP   &lt 2 DEL  &kp END        &kp PG_DN &kp ETR  &kp BS             &trans    &trans     &trans    &trans       &kp JP_USC
             >;
         };
 
         keypad {
             display-name = "Kp";
             bindings = <
-&trans    &kp F11   &kp F12   &trans    &trans    &trans    &trans                                                  &mo 3   &trans     &trans    &trans     &trans    &trans      &trans
-&trans    &kp EXCL  &kp JP_DQ &kp HASH  &kp DLLR  &kp PRCNT &none                                                   &none   &kp AMPS   &kp JP_Q  &kp JP_LP  &kp JP_RP &trans      &trans
-&trans   	&kp N1    &kp N2    &kp N3    &kp N4    &kp N5    &none      &trans     &trans         &trans    &trans   &none   &trans     &kp CARET &kp LBRT   &kp RBRT  &trans      &trans
-&trans    &kp N6    &kp N7    &kp N8    &kp N9    &kp N0                          &trans         &trans                     &trans		 &kp JP_TI &kp JP_LB  &kp JP_RB &trans      &trans
-&trans    &trans    &trans    &kp TAB   &kp ESC             &trans     &trans     &trans         &trans  	 &trans  	&kp KANA           &trans    &trans     &trans	  &trans      &trans
+&trans    &kp F11   &kp F12   &trans    &trans    &trans    &trans                                                  &mo 3   &trans     &trans     &trans      &trans      &trans      &trans
+&trans    &kp EXCL  &kp JP_DQ &kp HASH  &kp DLLR  &kp PRCNT &none                                                   &none   &kp JP_AMP &kp JP_Q   &kp JP_LP   &kp JP_RP   &trans      &trans
+&trans   	&kp N1    &kp N2    &kp N3    &kp N4    &kp N5    &none      &trans     &trans         &trans    &trans   &none   &trans     &kp JP_CRT &kp JP_LBRT &kp JP_RBRT &trans      &trans
+&trans    &kp N6    &kp N7    &kp N8    &kp N9    &kp N0                          &trans         &trans                     &trans		 &kp JP_TI  &kp JP_LB   &kp JP_RB   &trans      &trans
+&trans    &kp UNDO  &kp REDO  &kp TAB   &kp ESC             &trans     &trans     &trans         &trans  	 &trans  	&kp KANA           &trans     &trans      &trans	    &trans      &trans
             >;
         };
         
@@ -103,7 +103,7 @@
 &trans    &trans    &trans    &msc SC_U &trans    &trans    &none                                                   &none   &trans     &kp HOME  &kp PG_UP  &kp END   &trans      &trans
 &trans   	&trans    &msc SC_L &msc SC_D &msc SC_R &trans    &none      &trans     &trans         &trans    &trans   &none   &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT &trans      &trans
 &trans    &trans    &mkp RCLK &mkp MCLK &mkp LCLK &trans                          &trans         &trans                     &trans     &trans    &kp PG_DN  &trans    &trans      &trans
-&kp REDO  &kp UNDO  &kp RC(X) &kp RC(C) &kp RC(V)           &kp SP     &kp DEL    &trans         &trans  	 &trans  	&trans             &trans    &trans     &trans	  &trans      &trans
+&trans    &trans    &trans    &trans    &trans              &kp SP     &kp DEL    &trans         &trans  	 &trans  	&trans             &trans    &trans     &trans	  &trans      &trans
             >;
         };
 
