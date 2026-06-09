@@ -56,7 +56,6 @@
       #include "macros.dtsi"
       #include "version.dtsi"
 
-/*
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -66,17 +65,10 @@
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
         };
-/*
-
-        hm: homerow_mods {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS";
-            #binding-cells = <2>;
-            tapping-term-ms = <150>;
-            quick-tap-ms = <100>;
-            flavor = "hold-preferred";
-            bindings = <&kp>, <&kp>;
-        };
+        //    label = "HOMEROW_MODS";
+        //    tapping-term-ms = <150>;
+        //    quick-tap-ms = <100>;
+        //    flavor = "hold-preferred";
 
     };
 
