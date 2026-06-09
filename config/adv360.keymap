@@ -6,7 +6,7 @@
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
-#define KQ  2
+#define KQ  8
 
 // OS設定を日本語キーボードのまま使用するための変換定義
 
@@ -80,12 +80,12 @@
             bindings = <
 &kp HANZE	&kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &tog 1                                                  &mo 3   &kp F6     &kp F7    &kp F8     &kp F9    &kp F10     &kp MINUS
 &kp TAB   &kp Q     &kp W     &kp E     &kp R     &kp T     &none                                                   &none   &kp Y      &kp U     &kp I      &kp O     &kp P       &kp JP_AT
-&mt CT ESC &kp A    &kp S     &lt 2 D   &kp F     &kp G     &none      &kp RALT   &kp SCR        &trans    &kp LWIN &none   &kp H      &kp J     &kp K      &kp L     &kp SCLN    &kp JP_COLON
+&mt CT ESC &kp A    &kp S     &lt 8 D   &kp F     &kp G     &none      &kp RALT   &kp SCR        &trans    &kp LWIN &none   &kp H      &kp J     &kp K      &kp L     &kp SCLN    &kp JP_COLON
 &kp SF    &kp Z     &kp X     &kp C     &kp V     &kp B                           &kp HOME       &kp PG_UP                  &kp N      &kp M     &kp COMMA  &kp DOT   &kp SLASH   &kp JP_YEN
 &kp CAD   &kp RWIN  &kp EISU  &kp ETR   &kp BS              &lt 1 SP   &lt 2 DEL  &kp END        &kp PG_DN &kp ETR  &kp BS             &kp TAB   &trans     &trans    &kp LALT    &kp USCORE
             >;
         };
-/
+
         keypad {
             display-name = "Kp";
             bindings = <
@@ -94,17 +94,6 @@
 &trans   	&kp N1    &kp N2    &kp N3    &kp N4    &kp N5    &none      &trans     &trans         &trans    &trans   &none   &trans     &kp CARET &kp LBRT   &kp RBRT  &trans      &trans
 &trans    &kp N6    &kp N7    &kp N8    &kp N9    &kp N0                          &trans         &trans                     &trans		 &kp JP_TI &kp JP_LB  &kp JP_RB &trans      &trans
 &mo 2     &kp UNDO  &kp REDO  &trans	  &trans              &trans     &trans     &trans         &trans  	 &trans  	&trans             &trans    &trans     &trans	  &trans      &mo 2
-            >;
-        };
-        
-        Kq {
-            display-name = "Kq";
-            bindings = <
-&trans    &trans    &trans    &trans    &trans    &trans    &trans                                                  &mo 3   &trans     &trans    &trans     &trans    &trans      &trans
-&trans    &trans    &trans    &msc SC_U &trans    &trans    &none                                                   &none   &trans     &trans    &trans     &trans    &trans      &trans
-&trans   	&trans    &msc SC_L &msc SC_D &msc SC_R &trans    &none      &trans     &trans         &trans    &trans   &none   &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT &trans      &trans
-&trans    &trans    &mkp RCLK &mkp MCLK &mkp LCLK &trans                          &trans         &trans                     &trans     &trans    &trans     &trans    &trans      &trans
-&mo 2     &trans    &trans    &trans    &trans              &kp SP     &kp DEL    &trans         &trans  	 &trans  	&trans             &trans    &trans     &trans	  &trans      &mo 2
             >;
         };
         
@@ -148,6 +137,17 @@
         extra4 {
             display-name = "Yellow";
             status = "reserved";
+        };
+        
+        Kq {
+            display-name = "Kq";
+            bindings = <
+&trans    &trans    &trans    &trans    &trans    &trans    &trans                                                  &mo 3   &trans     &trans    &trans     &trans    &trans      &trans
+&trans    &trans    &trans    &msc SC_U &trans    &trans    &none                                                   &none   &trans     &trans    &trans     &trans    &trans      &trans
+&trans   	&trans    &msc SC_L &msc SC_D &msc SC_R &trans    &none      &trans     &trans         &trans    &trans   &none   &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT &trans      &trans
+&trans    &trans    &mkp RCLK &mkp MCLK &mkp LCLK &trans                          &trans         &trans                     &trans     &trans    &trans     &trans    &trans      &trans
+&mo 2     &trans    &trans    &trans    &trans              &kp SP     &kp DEL    &trans         &trans  	 &trans  	&trans             &trans    &trans     &trans	  &trans      &mo 2
+            >;
         };
     };
 };
