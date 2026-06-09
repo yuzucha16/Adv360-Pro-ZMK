@@ -100,7 +100,7 @@
             display-name = "Fn";
             bindings = <
 &trans    &trans    &trans    &trans    &trans    &trans    &trans                                                  &mo 3   &trans     &trans    &trans     &trans    &trans      &trans
-&trans    &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &none                                                   &none   &kp F6     &kp F7    &kp F8     &kp F9    &kp F10     &kp F11
+&kp F12   &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &none                                                   &none   &kp F6     &kp F7    &kp F8     &kp F9    &kp F10     &kp F11
 &trans   	&trans    &msc SC_L &msc SC_U &msc SC_D &msc SC_R &none      &trans     &trans         &trans    &trans   &none   &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT &trans      &trans
 &trans    &trans    &mkp RCLK &mkp MCLK &mkp LCLK &trans                          &trans         &trans                     &kp HOME   &kp PG_DN &kp PG_UP  &kp END   &trans      &trans
 &trans    &kp LG(LEFT) &kp LG(RIGHT) &kp LG(UP) &trans      &trans     &trans     &trans         &trans  	 &trans  	&trans             &trans    &trans     &trans	  &trans      &trans
