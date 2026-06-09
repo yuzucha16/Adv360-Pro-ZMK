@@ -66,7 +66,7 @@
             bindings = <&kp>, <&kp>;
         };
 
-        /*
+        /* Original
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
@@ -87,7 +87,7 @@
             bindings = <
 &kp HANZE	&kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &tog 1                                                  &mo 3   &kp F6     &kp F7    &kp F8     &kp F9    &kp F10     &kp MINUS
 &kp TAB   &kp Q     &kp W     &kp E     &kp R     &kp T     &none                                                   &none   &kp Y      &kp U     &kp I      &kp O     &kp P       &kp JP_AT
-&mt CT ESC &kp A    &kp S     &lt 2 D   &kp F     &kp G     &none      &kp RALT   &kp SCR        &trans    &kp LWIN &none   &kp H      &kp J     &kp K      &kp L     &kp CLN     &kp JP_COLON
+&mt CT ESC &kp A    &kp S     &lt 2 D   &kp F     &kp G     &none      &kp RALT   &kp SCR        &trans    &kp LWIN &none   &kp H      &kp J     &kp K      &kp L     &kp SCLN    &kp JP_COLON
 &kp SF    &kp Z     &kp X     &kp C     &kp V     &kp B                           &kp HOME       &kp PG_UP                  &kp N      &kp M     &kp COMMA  &kp DOT   &kp SLASH   &kp JP_YEN
 &kp CAD   &kp RWIN  &kp EISU  &kp ETR   &kp BS              &lt 1 SP   &lt 2 DEL  &kp END        &kp PG_DN &kp ETR  &kp BS             &kp TAB   &trans     &trans    &kp LALT    &kp USCORE
             >;
