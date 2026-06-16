@@ -77,11 +77,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp HANZE  &kp N1    &kp N2    &kp N3    &kp N4    &kp N5    &tog 1                                                  &mo 3   &kp N6     &kp N7    &kp N8     &kp N9     &kp N0       &kp MINUS
-&kp TAB    &kp Q     &kp W     &kp E     &kp R     &kp T     &none                                                   &none   &kp Y      &kp U     &kp I      &kp O      &kp P        &kp JP_AT
-&mt CT ESC &kp A     &kp S     &lt 1 D   &kp F     &kp G     &none      &kp SCR    &kp SCR        &trans    &kp LWIN &none   &kp H      &kp J     &kp K      &kp L      &mt AL SCLN  &kp JP_COLON
-&kp SF     &kp Z     &kp X     &kp C     &kp V     &kp B                           &kp HOME       &kp PG_UP                  &kp N      &kp M     &kp COMMA  &kp DOT    &mt SF SLASH &kp JP_YEN
-&kp EISU   &trans    &kp LWIN  &kp ETR   &kp BS              &mt SF SP  &lt 1 DEL  &kp END        &kp PG_DN &kp ETR  &kp BS             &kp RALT  &kp JP_LBR &kp JP_RBR &trans       &kp JP_USC
+&kp HANZE   &kp N1  &kp N2    &kp N3    &kp N4    &kp N5    &tog 1                                                  &mo 3   &kp N6     &kp N7    &kp N8     &kp N9     &kp N0       &kp MINUS
+&kp TAB     &kp Q   &kp W     &kp E     &kp R     &kp T     &none                                                   &none   &kp Y      &kp U     &kp I      &kp O      &kp P        &kp JP_AT
+&mt CT ESC  &kp A   &kp S     &lt 1 D   &kp F     &kp G     &none      &kp SCR    &kp SCR        &trans    &kp LWIN &none   &kp H      &kp J     &kp K      &kp L      &mt AL SCLN  &kp JP_COLON
+&mt EISU SF &kp Z   &kp X     &kp C     &kp V     &kp B                           &kp HOME       &kp PG_UP                  &kp N      &kp M     &kp COMMA  &kp DOT    &mt RWIN SLASH &kp JP_YEN
+&trans      &trans  &kp LWIN  &kp ETR   &kp BS              &mt SF SP  &lt 1 DEL  &kp END        &kp PG_DN &kp ETR  &kp BS             &kp RALT  &kp JP_LBR &kp JP_RBR &trans       &kp JP_USC
             >;
         };
 
@@ -90,9 +90,9 @@
             bindings = <
 &kp F12   &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &trans                                                  &mo 3   &kp F6     &kp F7    &kp F8     &kp F9    &kp F10     &kp F11
 &trans    &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &none                                                   &none   &trans     &trans    &trans     &trans    &trans      &trans
-&trans   	&trans    &msc SC_L &msc SC_U &msc SC_D &msc SC_R &none      &trans     &trans         &trans    &trans   &none   &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT &trans      &trans
-&trans    &trans    &mkp RCLK &mkp MCLK &mkp LCLK &trans                          &trans         &trans                     &kp HOME   &kp PG_DN &kp PG_UP  &kp END   &trans      &trans
-&trans    &kp LG(LEFT) &kp LG(RIGHT) &kp LG(UP) &trans      &trans     &trans     &trans         &trans  	 &trans  	&kp KANA           &trans    &trans     &trans	  &trans      &trans
+&trans   	&trans    &msc SC_L &msc SC_U &msc SC_D &msc SC_R &none      &trans     &trans         &trans    &trans   &none   &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT &kp RALT    &trans
+&trans    &trans    &mkp RCLK &mkp MCLK &mkp LCLK &trans                          &trans         &trans                     &kp HOME   &kp PG_DN &kp PG_UP  &kp END   &kp RWIN    &trans
+&trans    &trans    &kp LG(LEFT) &kp LG(RIGHT) &kp LG(UP)   &trans     &trans     &trans         &trans  	 &trans  	&kp KANA           &trans    &trans     &trans	  &trans      &trans
             >;
         };
         
