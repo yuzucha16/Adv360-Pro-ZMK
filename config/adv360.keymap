@@ -99,7 +99,7 @@
             bindings = <
 &kp F12   &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &trans                                                  &mo 3   &kp F6     &kp F7    &kp F8     &kp F9    &kp F10     &kp F11
 &kp SCR_U &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &none                                                   &none   &trans     &trans    &trans     &trans    &trans      &kp DSK_D
-&kp SCR_D &trans    &msc SC_L &msc SC_U &msc SC_D &msc SC_R &none      &trans     &trans         &trans    &trans   &none   &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT &kp RALT    &kp DSK_N
+&kp SCR_D &kp LWIN  &msc SC_L &msc SC_U &msc SC_D &msc SC_R &none      &trans     &trans         &trans    &trans   &none   &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT &kp RALT    &kp DSK_N
 &kp SCR_L &kp SCR_R &mkp RCLK &mkp MCLK &mkp LCLK &trans                          &trans         &trans                     &kp HOME   &kp PG_DN &kp PG_UP  &kp END   &kp DSK_L   &kp DSK_R
 &trans    &trans    &kp TK_LS &kp UNDO  &kp REDO            &trans     &trans     &trans         &trans  	 &trans   &kp KANA           &trans    &trans     &trans    &trans      &trans
             >;
