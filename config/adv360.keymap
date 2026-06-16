@@ -49,6 +49,9 @@
 #define SC_R            SCRL_RIGHT
 #define SC_U            SCRL_UP
 #define SC_D            SCRL_DOWN
+#deifne SCR_L           LG(LEFT)
+#deifne SCR_R           LG(RIGHT)
+#define SCR_U           LG(UP)
 
 / {
     behaviors {
@@ -81,7 +84,7 @@
 &kp TAB     &kp Q   &kp W     &kp E     &kp R     &kp T     &none                                                   &none   &kp Y      &kp U     &kp I      &kp O      &kp P        &kp JP_AT
 &mt CT ESC  &kp A   &kp S     &lt 1 D   &kp F     &kp G     &none      &kp SCR    &kp SCR        &trans    &kp LWIN &none   &kp H      &kp J     &kp K      &kp L      &mt AL SCLN  &kp JP_COLON
 &mt EISU SF &kp Z   &kp X     &kp C     &kp V     &kp B                           &kp HOME       &kp PG_UP                  &kp N      &kp M     &kp COMMA  &kp DOT    &mt RWIN SLASH &kp JP_YEN
-&trans      &trans  &kp LWIN  &kp ETR   &kp BS              &mt SF SP  &lt 1 DEL  &kp END        &kp PG_DN &kp ETR  &kp BS             &kp RALT  &kp JP_LBR &kp JP_RBR &trans       &kp JP_USC
+&trans      &trans  &kp LWIN  &kp ETR   &kp BS              &mt SF SP  &lt 1 DEL  &kp END        &kp PG_DN &kp ETR  &kp BS             &kp TAB   &kp JP_LBR &kp JP_RBR &trans       &kp JP_USC
             >;
         };
 
@@ -89,10 +92,10 @@
             display-name = "Kp";
             bindings = <
 &kp F12   &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &trans                                                  &mo 3   &kp F6     &kp F7    &kp F8     &kp F9    &kp F10     &kp F11
-&trans    &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &none                                                   &none   &trans     &trans    &trans     &trans    &trans      &trans
-&trans   	&trans    &msc SC_L &msc SC_U &msc SC_D &msc SC_R &none      &trans     &trans         &trans    &trans   &none   &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT &kp RALT    &trans
+&kp SCR_U &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &none                                                   &none   &trans     &trans    &trans     &trans    &trans      &trans
+&kp SCR_L &kp SCR_R &msc SC_L &msc SC_U &msc SC_D &msc SC_R &none      &trans     &trans         &trans    &trans   &none   &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT &kp RALT    &trans
 &trans    &trans    &mkp RCLK &mkp MCLK &mkp LCLK &trans                          &trans         &trans                     &kp HOME   &kp PG_DN &kp PG_UP  &kp END   &kp RWIN    &trans
-&trans    &trans    &kp LG(LEFT) &kp LG(RIGHT) &kp LG(UP)   &trans     &trans     &trans         &trans  	 &trans  	&kp KANA           &trans    &trans     &trans	  &trans      &trans
+&trans    &trans    &trans    &trans    &trans              &trans     &trans     &trans         &trans  	 &trans   &kp KANA           &trans    &trans     &trans    &trans      &trans
             >;
         };
         
