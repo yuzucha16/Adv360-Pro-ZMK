@@ -49,8 +49,8 @@
 #define SC_R            SCRL_RIGHT
 #define SC_U            SCRL_UP
 #define SC_D            SCRL_DOWN
-#deifne SCR_L           LG(LEFT)
-#deifne SCR_R           LG(RIGHT)
+#define SCR_L           LG(LEFT)
+#define SCR_R           LG(RIGHT)
 #define SCR_U           LG(UP)
 
 / {
