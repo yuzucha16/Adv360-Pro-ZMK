@@ -52,6 +52,10 @@
 #define SCR_L           LG(LEFT)
 #define SCR_R           LG(RIGHT)
 #define SCR_U           LG(UP)
+#define SCR_D           LG(DOWN)
+#define DSK_L           LG(RC(LEFT))
+#define DSK_R           LG(RC(RIGHT))
+#define TK_LS           LG(TAB)
 
 / {
     behaviors {
@@ -92,10 +96,10 @@
             display-name = "Kp";
             bindings = <
 &kp F12   &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &trans                                                  &mo 3   &kp F6     &kp F7    &kp F8     &kp F9    &kp F10     &kp F11
-&kp SCR_U &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &none                                                   &none   &trans     &trans    &trans     &trans    &trans      &trans
-&kp SCR_L &kp SCR_R &msc SC_L &msc SC_U &msc SC_D &msc SC_R &none      &trans     &trans         &trans    &trans   &none   &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT &kp RALT    &trans
-&trans    &trans    &mkp RCLK &mkp MCLK &mkp LCLK &trans                          &trans         &trans                     &kp HOME   &kp PG_DN &kp PG_UP  &kp END   &kp RWIN    &trans
-&trans    &trans    &trans    &kp UNDO  &kp REDO            &trans     &trans     &trans         &trans  	 &trans   &kp KANA           &trans    &trans     &trans    &trans      &trans
+&trans    &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &none                                                   &none   &trans     &trans    &trans     &trans    &trans      &trans
+&trans    &trans    &msc SC_L &msc SC_U &msc SC_D &msc SC_R &none      &trans     &trans         &trans    &trans   &none   &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT &kp RALT    &trans
+&kp SCR_L &kp SCR_R &mkp RCLK &mkp MCLK &mkp LCLK &trans                          &trans         &trans                     &kp HOME   &kp PG_DN &kp PG_UP  &kp END   &kp DSK_L   &kp DSK_R
+&trans    &trans    &kp TK_LS &kp UNDO  &kp REDO            &trans     &trans     &trans         &trans  	 &trans   &kp KANA           &trans    &trans     &trans    &trans      &trans
             >;
         };
         
